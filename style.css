@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Peralta&family=Playfair+Display:ital@1&family=Poppins:wght@200&family=Sacramento&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: serif;
+}
+
+hr {
+  border-color: #D1D1D1;
+  border-style:none;
+  border-top-style: dotted;
+  width:7%;
+  border-width: 8px;
+  margin: 100px auto;
+}
+
+button {
+  border-radius: 8px;
+  background: #66BFBF;
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 50px auto;
+  padding: 10px 20px;
+  border-style: none;
+}
+
+a {
+  color: #fff;
+}
+
+h1 {
+  font-size: 5.5rem;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  /* line-height: 2; */
+  font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+  font-weight: normal;
+  color: #F76E11;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+p, li {
+  /* font-weight: normal; */
+  color: #40514E;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: #00092C;
+  font-size: 1.5rem;
+  letter-spacing: 15px;
+}
+
+i:hover {
+  color: #B20600;
+  transition: 0.2s ease;
+}
+
+.top-container {
+  padding-top: 100px;
+  position: relative;
+  background: #E1FFEE;
+  height: 100vh;
+}
+
+.bottom-container {
+  padding-bottom: 80px;
+}
+
+.contact {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.contact div {
+  justify-content: space-around;
+}
+
+.first_cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.second_cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.testing_img {
+  height: 450px;
+  width: 650px;
+}
+
+.profile {
+  width: 50%;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.profile h2, .profile p {
+  margin-top: 10px;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+}
+
+.skill_row {
+  width: 50%;
+  text-align: left;
+  margin: 100px auto 100px auto;
+}
+
+.first_skill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.second_skill {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.design_desc {
+  margin-top: 15px;
+}
+
+.dev_desc {
+  margin-top: 15px;
+}
+
+.footer {
+  height: 20vh;
+  background: #66BFBF;
+}
+
+.footer h2 {
+  color: #141E27;
+}
+
+.footer p {
+  margin-top: 75px;
+}
+
+
+
+@media (max-width: 451px) {
+  .first_cloud {
+   display: none;
+  }
+  
+  .second_cloud {
+    display: none;
+  }
+  
+  .testing_img {
+    height: 250px;
+    width: 300px;
+  }
+}
